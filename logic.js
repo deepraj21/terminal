@@ -454,7 +454,7 @@ $(document).ready(function () {
             this.echo(banner_help);
             this.echo(color("lightblue", "help:") + "        Displays this help message.");
             this.echo(color("lightblue", "am:") + "          Displays information about me.");
-            this.echo(color("lightblue", "usr:") + "         Fetches and displays a GitHub user's information.");
+            this.echo(color("lightblue", "usr:") + "         Fetches and displays a GitHub user's info.");
             this.echo(color("lightblue", "cls:") + "         Clears the terminal.");
             this.echo(color("lightblue", "skl:") + "         Lists my skills");
             this.echo(color("lightblue", "ping:") + "        Checks internet connectivity.");
@@ -530,12 +530,12 @@ $(document).ready(function () {
     }, {
          
     greetings: `
-██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
-██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝
-██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  
-██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  
-╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗
- ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
+██╗    ██╗██╗      ██████╗███╗   ███╗
+██║    ██║██║     ██╔════╝████╗ ████║
+██║ █╗ ██║██║     ██║     ██╔████╔██║  
+██║███╗██║██║     ██║     ██║╚██╔╝██║  
+╚███╔███╔╝███████╗╚██████╗██║ ╚═╝ ██║
+ ╚══╝╚══╝ ╚══════╝ ╚═════╝╚═╝     ╚═╝
 Powershell 7.4.2
 Hello User! I am Deepraj, Use 'help' command to get help.
 

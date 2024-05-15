@@ -477,7 +477,7 @@ $(document).ready(function () {
             this.echo(color("lightblue", "skl:") + "         Lists my skills");
             this.echo(color("lightblue", "ping:") + "        Checks internet connectivity.");
             this.echo(color("lightblue", "pwd:") + "         Displays the current URL.");
-            this.echo(color("lightblue", "dt:") + "    Displays the current date and time.");
+            this.echo(color("lightblue", "dt:") + "          Displays the current date and time.");
             this.echo(color("lightblue", "proj:") + "        Lists my current projects.");
             this.echo(color("lightblue", "lnks:") + "        Lists useful links.");
         },

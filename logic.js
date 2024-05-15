@@ -436,6 +436,24 @@ const skl_banner = `
 ╚══════╝╚═╝  ╚═╝╚══════╝
 `;
 
+const dt_banner = `
+██████╗ ████████╗
+██╔══██╗╚══██╔══╝
+██║  ██║   ██║     
+██║  ██║   ██║     
+██████╔╝   ██║   
+╚═════╝    ╚═╝                                  
+`;
+
+const lnks_banner = `
+██╗     ███╗   ██╗██╗  ██╗███████╗
+██║     ████╗  ██║██║ ██╔╝██╔════╝
+██║     ██╔██╗ ██║█████╔╝ ███████╗
+██║     ██║╚██╗██║██╔═██╗ ╚════██║
+███████╗██║ ╚████║██║  ██╗███████║
+╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝      
+`;
+
 function go_url(url) {
     window.open(url, '_blank');
 }
@@ -454,14 +472,14 @@ $(document).ready(function () {
             this.echo(banner_help);
             this.echo(color("lightblue", "help:") + "        Displays this help message.");
             this.echo(color("lightblue", "am:") + "          Displays information about me.");
-            this.echo(color("lightblue", "usr:") + "         Fetches and displays a GitHub user's info.");
+            this.echo(color("lightblue", "usr:") + "         Displays a GitHub user's info.");
             this.echo(color("lightblue", "cls:") + "         Clears the terminal.");
             this.echo(color("lightblue", "skl:") + "         Lists my skills");
             this.echo(color("lightblue", "ping:") + "        Checks internet connectivity.");
             this.echo(color("lightblue", "pwd:") + "         Displays the current URL.");
-            this.echo(color("lightblue", "datetime:") + "    Displays the current date and time.");
+            this.echo(color("lightblue", "dt:") + "    Displays the current date and time.");
             this.echo(color("lightblue", "proj:") + "        Lists my current projects.");
-            this.echo(color("lightblue", "links:") + "       Lists useful links.");
+            this.echo(color("lightblue", "lnks:") + "        Lists useful links.");
         },
         am: function () {
             this.echo(am_banner);
@@ -512,7 +530,8 @@ $(document).ready(function () {
         pwd: function () {
             this.echo(color("lightblue", window.location.href));
         },
-        datetime: function () {
+        dt: function () {
+            this.echo(dt_banner);
             let now = new Date();
             this.echo(color("lightblue", now.toString()));
         },
@@ -522,10 +541,13 @@ $(document).ready(function () {
             this.echo(color("lightblue", "Project 2:") + " Web Scraper");
             this.echo(color("lightblue", "Project 3:") + " Portfolio Website");
         },
-        links: function () {
-            this.echo(color("lightblue", "GitHub:") + " [[b;#44D544;]https://github.com/cx0y]");
-            this.echo(color("lightblue", "Twitter:") + " [[b;#44D544;]https://twitter.com/cx0y]");
-            this.echo(color("lightblue", "LinkedIn:") + " [[b;#44D544;]https://linkedin.com/in/cx0y]");
+        lnks: function () {
+            this.echo(lnks_banner);
+            this.echo(color("lightblue", "GitHub:") + " [[b;#44D544;]https://github.com/deepraj21]");
+            this.echo(color("lightblue", "Linkedin:") + " [[b;#44D544;]https://www.linkedin.com/in/deepraj-bera-b64996231]");
+            this.echo(color("lightblue", "Leetocde:") + " [[b;#44D544;]https://leetcode.com/u/user6281Sd]");
+            this.echo(color("lightblue", "GFG:") + " [[b;#44D544;]https://www.geeksforgeeks.org/user/deepraj21bera]");
+            this.echo(color("lightblue", "Instagram:") + " [[b;#44D544;]https://www.instagram.com/its_deep.raj/]");
         }
     }, {
          

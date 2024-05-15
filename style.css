@@ -1,5 +1,15 @@
 .cmd{
     color: #f7c332;
 }
-
+body {
+    background-color: #00000000;
+    /* Change to your preferred color */
+    
+}
+.terminal {
+    background-color: #00000000 !important;
+    /* Change to your preferred color */
+    color: #d8dee9 !important;
+    /* Optional: Change the text color to ensure readability */
+}
 

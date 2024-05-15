@@ -563,7 +563,7 @@ Hello User! Use 'help' command to get help.
 
     `,
     prompt() {
-      return `┌──(${color("blue", "deepraj21")}${color("white", "@info")})-[${color(
+      return `┌──(${color("green", "deepraj21")}${color("white", "@info")})-[${color(
         "blue",
         "~/"
       )}]

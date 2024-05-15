@@ -537,7 +537,7 @@ $(document).ready(function () {
 ╚███╔███╔╝███████╗╚██████╗██║ ╚═╝ ██║
  ╚══╝╚══╝ ╚══════╝ ╚═════╝╚═╝     ╚═╝
 Powershell 7.4.2
-Hello User! I am Deepraj, Use 'help' command to get help.
+Hello User! Use 'help' command to get help.
 
     `,
     prompt() {

@@ -167,8 +167,15 @@ $(document).ready(function () {
             this.echo(color("lightblue", "lnks:") + "        Lists useful links.");
         },
         am: function () {
+            const imageUrl = "./profile.jpg"; // Replace "url_to_your_picture" with the actual URL of your picture
+            const imageElement = document.createElement("img");
+            imageElement.src = imageUrl;
+            imageElement.style.width = "150px";
+            imageElement.style.padding = "10px";
+            imageElement.style.borderRadius = "20px";
             this.echo(am_banner);
-            this.echo(color("lightblue", "Name:") + "Deepraj Bera");
+            this.echo(imageElement);
+            this.echo(color("lightblue", "Name:") + " Deepraj Bera");
             this.echo(color("lightblue", "Age:") + " 20");
             this.echo(color("lightblue", "Status:") + " Student");
             this.echo(color("lightblue", "Description:") + " Passionate about technology and coding.");

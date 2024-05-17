@@ -1,8 +1,9 @@
 .cmd{
     color: #f7c332;
 }
-body {
+body,html {
     background-color: #00000000; 
+    scroll-behavior: smooth;
 }
 .terminal {
     background-color: #00000048 !important;

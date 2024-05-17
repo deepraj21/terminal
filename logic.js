@@ -139,6 +139,10 @@ const lnks_banner = `
 ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝      
 `;
 
+scroll_bottom = () => {
+    window.scrollTo(0, document.body.scrollHeight);
+}
+
 function go_url(url) {
     window.open(url, '_blank');
 }
@@ -165,6 +169,7 @@ $(document).ready(function () {
             this.echo(color("lightblue", "dt:") + "          Displays the current date and time.");
             this.echo(color("lightblue", "proj:") + "        Lists my current projects.");
             this.echo(color("lightblue", "lnks:") + "        Lists useful links.");
+            scroll_bottom();
         },
         am: function () {
             const imageUrl = "./profile.jpg"; // Replace "url_to_your_picture" with the actual URL of your picture
@@ -181,6 +186,7 @@ $(document).ready(function () {
             this.echo(color("lightblue", "Description:") + " Passionate about technology and coding.");
             this.echo(color("lightblue", "Motto:") + " \"Code, Learn, Grow\"");
             this.echo(color("lightblue", "Email:") + " deepraj21.bera@gmail.com");
+            scroll_bottom();
         },
         usr: function (login) {
             if (!login) {
@@ -211,6 +217,7 @@ $(document).ready(function () {
             this.echo(color("lightblue", "Languages:") + " Python, JavaScript, C, C++, Java");
             this.echo(color("lightblue", "Library:") + " React, Node.js, Express.js, Flask");
             this.echo(color("lightblue", "Dev Tools:") + " Git, Docker, VS Code, Postman");
+            scroll_bottom();
         },
         ping: function () {
             if (navigator.onLine) {
@@ -228,6 +235,7 @@ $(document).ready(function () {
             this.echo(color("lightblue", now.toString()));
         },
         proj: function () {
+            // scroll_bottom();
             this.echo(proj_banner);
             this.echo(color("lightblue", "Python:"));
             this.echo('1. <a href="https://github.com/deepraj21/Predictbay" style="color: #44D544; font-weight: bold;">Predictbay</a>', {raw: true});
@@ -241,6 +249,7 @@ $(document).ready(function () {
             this.echo('5. <a href="https://github.com/deepraj21/TravelScape" style="color: #44D544; font-weight: bold;">TravelScape</a>', {raw: true});
             this.echo('5. <a href="https://github.com/deepraj21/VUESIC" style="color: #44D544; font-weight: bold;">VUESIC</a>', {raw: true});
             this.echo('5. <a href="https://github.com/deepraj21/StockWatch" style="color: #44D544; font-weight: bold;">StockWatch</a>', {raw: true});
+            scroll_bottom();
         },
         lnks: function () {
             this.echo(lnks_banner);

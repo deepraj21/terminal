@@ -79,64 +79,64 @@
 //  ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
 
 const banner_help = `
-██╗  ██╗███████╗██╗     ██████╗ 
-██║  ██║██╔════╝██║     ██╔══██╗
-███████║█████╗  ██║     ██████╔╝
-██╔══██║██╔══╝  ██║     ██╔═══╝ 
-██║  ██║███████╗███████╗██║     
-╚═╝  ╚═╝╚══════╝╚══════╝╚═╝                                                    
+██╗  ██╗███████╗██╗     ██████╗
+██║  ██║██╔════╝██║     ██╔══██╗
+███████║█████╗  ██║     ██████╔╝
+██╔══██║██╔══╝  ██║     ██╔═══╝
+██║  ██║███████╗███████╗██║
+╚═╝  ╚═╝╚══════╝╚══════╝╚═╝
 `;
 const am_banner = `
-██████╗ ███████╗███████╗██████╗
+██████╗ ███████╗███████╗██████╗
 ██╔══██╗██╔════╝██╔════╝██╔══██╗
-██║  ██║█████╗  █████╗  ██████╔╝
-██║  ██║██╔══╝  ██╔══╝  ██╔═══╝
+██║  ██║█████╗  █████╗  ██████╔╝
+██║  ██║██╔══╝  ██╔══╝  ██╔═══╝
 ██████╔╝███████╗███████╗██║
-╚═════╝ ╚══════╝╚══════╝╚═╝                               
+╚═════╝ ╚══════╝╚══════╝╚═╝
 `;
 const usr_banner = `
-██╗   ██╗███████╗██████╗ 
-██║   ██║██╔════╝██╔══██╗
-██║   ██║███████╗██████╔╝
-██║   ██║╚════██║██╔══██║
-╚██████╔╝███████║██║  ██║
- ╚═════╝ ╚══════╝╚═╝  ╚═╝ 
+██╗   ██╗███████╗██████╗
+██║   ██║██╔════╝██╔══██╗
+██║   ██║███████╗██████╔╝
+██║   ██║╚════██║██╔══██║
+╚██████╔╝███████║██║  ██║
+ ╚═════╝ ╚══════╝╚═╝  ╚═╝
 `;
 
 const proj_banner = `
-██████╗ ██████╗  ██████╗      ██╗
-██╔══██╗██╔══██╗██╔═══██╗     ██║
-██████╔╝██████╔╝██║   ██║     ██║
-██╔═══╝ ██╔══██╗██║   ██║██   ██║
-██║     ██║  ██║╚██████╔╝╚█████╔╝  
-╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝
+██████╗ ██████╗  ██████╗      ██╗
+██╔══██╗██╔══██╗██╔═══██╗     ██║
+██████╔╝██████╔╝██║   ██║     ██║
+██╔═══╝ ██╔══██╗██║   ██║██   ██║
+██║     ██║  ██║╚██████╔╝╚█████╔╝
+╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝
 `;
 
 const skl_banner = `
-███████╗██╗  ██╗██╗
-██╔════╝██║ ██╔╝██║
-███████╗█████╔╝ ██║
-╚════██║██╔═██╗ ██║
-███████║██║  ██╗███████╗
-╚══════╝╚═╝  ╚═╝╚══════╝
+███████╗██╗  ██╗██╗
+██╔════╝██║ ██╔╝██║
+███████╗█████╔╝ ██║
+╚════██║██╔═██╗ ██║
+███████║██║  ██╗███████╗
+╚══════╝╚═╝  ╚═╝╚══════╝
 `;
 
 const dt_banner = `
-██████╗ ████████╗
+██████╗ ████████╗
 ██╔══██╗╚══██╔══╝
-██║  ██║   ██║     
-██║  ██║   ██║     
-██████╔╝   ██║   
-╚═════╝    ╚═╝                                  
+██║  ██║   ██║
+██║  ██║   ██║
+██████╔╝   ██║
+╚═════╝    ╚═╝
 `;
 
 const lnks_banner = `
-██╗     ███╗   ██╗██╗  ██╗███████╗
-██║     ████╗  ██║██║ ██╔╝██╔════╝
-██║     ██╔██╗ ██║█████╔╝ ███████╗
-██║     ██║╚██╗██║██╔═██╗ ╚════██║
-███████╗██║ ╚████║██║  ██╗███████║
-╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝      
+██╗     ███╗   ██╗██╗  ██╗███████╗
+██║     ████╗  ██║██║ ██╔╝██╔════╝
+██║     ██╔██╗ ██║█████╔╝ ███████╗
+██║     ██║╚██╗██║██╔═██╗ ╚════██║
+███████╗██║ ╚████║██║  ██╗███████║
+╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
 `;
 
 scroll_bottom = () => {
@@ -159,16 +159,16 @@ $(document).ready(function () {
     $('body').terminal({
         help: function () {
             this.echo(banner_help);
-            this.echo(color("lightblue", "help:") + "        Displays this help message.");
-            this.echo(color("lightblue", "am:") + "          Displays information about me.");
-            this.echo(color("lightblue", "usr:") + "         Displays a GitHub user's info.");
-            this.echo(color("lightblue", "cls:") + "         Clears the terminal.");
-            this.echo(color("lightblue", "skl:") + "         Lists my skills");
-            this.echo(color("lightblue", "ping:") + "        Checks internet connectivity.");
-            this.echo(color("lightblue", "pwd:") + "         Displays the current URL.");
-            this.echo(color("lightblue", "dt:") + "          Displays the current date and time.");
-            this.echo(color("lightblue", "proj:") + "        Lists my current projects.");
-            this.echo(color("lightblue", "lnks:") + "        Lists useful links.");
+            this.echo(color("lightblue", "help:") + "      Displays this help message.");
+            this.echo(color("lightblue", "am:") + "        Displays information about me.");
+            this.echo(color("lightblue", "usr:") + "       Displays {eg. usr github_username}.");
+            this.echo(color("lightblue", "cls:") + "       Clears the terminal.");
+            this.echo(color("lightblue", "skl:") + "       Lists my skills.");
+            this.echo(color("lightblue", "ping:") + "      Checks internet connectivity.");
+            this.echo(color("lightblue", "pwd:") + "       Displays the current URL.");
+            this.echo(color("lightblue", "dt:") + "        Displays the current date and time.");
+            this.echo(color("lightblue", "proj:") + "      Lists my current projects.");
+            this.echo(color("lightblue", "lnks:") + "      Lists useful links.");
             scroll_bottom();
         },
         am: function () {
@@ -267,7 +267,7 @@ $(document).ready(function () {
 ██║ █╗ ██║██║     ██║     ██╔████╔██║
 ██║███╗██║██║     ██║     ██║╚██╔╝██║
 ╚███╔███╔╝███████╗╚██████╗██║ ╚═╝ ██║
- ╚══╝╚══╝ ╚══════╝ ╚═════╝╚═╝     ╚═╝
+ ╚══╝╚══╝ ╚══════╝ ╚═════╝╚═╝     ╚═╝
 Powershell 7.4.2
 Hello User! Use '${color("green", "help")}' command to get help.
 
